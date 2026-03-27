@@ -1,0 +1,10 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1920" fill="#F6F3ED"/>
+  <rect x="56" y="64" width="188" height="44" rx="22" fill="#E4ECE7"/>
+  <text x="83" y="93" fill="#315D59" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" font-weight="700">담아알림</text>
+  <text x="56" y="164" fill="#1E4441" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="58" font-weight="700">목록과 달력으로 한눈에 확인</text>
+  <text x="56" y="220" fill="#5A6B66" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="30" font-weight="500">홈 달력 화면과 날짜별 리마인더 상태를 보여주세요</text>
+  <rect x="56" y="292" width="968" height="1564" rx="56" fill="#FFFFFF" stroke="#D8D2C8" stroke-width="8"/>
+  <rect x="104" y="340" width="872" height="1468" rx="36" fill="#EEF1EE" stroke="#C9D3CE" stroke-width="4" stroke-dasharray="16 16"/>
+  <text x="248" y="1098" fill="#6B7570" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="600">실제 홈 달력 화면 캡처를 이 영역에 배치하세요</text>
+</svg>

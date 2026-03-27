@@ -1,0 +1,48 @@
+name: life_admin_assistant
+description: "생활 행정 비서 - 문서를 일정과 리마인더로 바꾸는 로컬 우선 모바일 MVP"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.2
+  flutter_local_notifications: ^19.4.2
+  flutter_timezone: ^4.0.1
+  flutter_riverpod: ^2.6.1
+  go_router: ^16.2.1
+  google_fonts: ^6.3.2
+  image: ^4.5.4
+  image_picker: ^1.2.0
+  in_app_purchase: ^3.2.1
+  intl: ^0.20.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.5.4
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.4+4
+  timezone: ^0.10.1
+  url_launcher: ^6.3.2
+  uuid: ^4.5.1
+  google_mlkit_text_recognition: ^0.15.1
+  pdf_render_maintained: ^1.6.1
+  flutter_pdf_text: ^0.9.0
+
+dependency_overrides:
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

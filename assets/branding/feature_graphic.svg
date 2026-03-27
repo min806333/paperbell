@@ -1,0 +1,20 @@
+<svg width="1024" height="500" viewBox="0 0 1024 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="500" rx="40" fill="#F4F7F5"/>
+  <circle cx="208" cy="118" r="88" fill="#E3ECE8"/>
+  <circle cx="918" cy="374" r="74" fill="#E3ECE8" opacity="0.85"/>
+  <rect x="132" y="104" width="220" height="286" rx="34" fill="#FFFCF7" stroke="#2E5A58" stroke-width="14"/>
+  <path d="M286 104V154C286 169.464 298.536 182 314 182H352" fill="#FFFCF7"/>
+  <path d="M286 104V154C286 169.464 298.536 182 314 182H352" stroke="#2E5A58" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="168" y="188" width="136" height="16" rx="8" fill="#7A9491"/>
+  <rect x="168" y="226" width="136" height="16" rx="8" fill="#7A9491"/>
+  <rect x="168" y="264" width="100" height="16" rx="8" fill="#7A9491"/>
+  <circle cx="350" cy="314" r="58" fill="#F5E4BE" stroke="#2E5A58" stroke-width="14"/>
+  <path d="M350 288V316L368 330" stroke="#2E5A58" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="350" cy="314" r="8" fill="#2E5A58"/>
+  <text x="466" y="196" fill="#214947" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="64" font-weight="700">PaperBell</text>
+  <text x="466" y="252" fill="#4F6D6A" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="28" font-weight="500">Local-first reminders from the documents you keep</text>
+  <rect x="466" y="296" width="132" height="38" rx="19" fill="#DCE7E4"/>
+  <rect x="610" y="296" width="148" height="38" rx="19" fill="#F5E4BE"/>
+  <text x="497" y="320" fill="#214947" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="600">로컬 우선</text>
+  <text x="647" y="320" fill="#214947" font-family="Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="600">개인정보 우선</text>
+</svg>
