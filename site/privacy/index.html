@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy Language | PaperBell</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero-card">
+        <nav class="top-nav" aria-label="Privacy site navigation">
+          <a class="nav-link" href="../">Site home</a>
+        </nav>
+
+        <p class="eyebrow">PaperBell / 담아알림</p>
+        <h1>Privacy Policy / 개인정보처리방침</h1>
+        <p class="lead">
+          Please choose the language you would like to read.
+        </p>
+        <p class="lead">
+          원하는 언어를 선택해주세요. 직접 주소로 접속한 한국어/English 페이지도 그대로
+          사용할 수 있습니다.
+        </p>
+        <p id="language-note" class="selection-note" hidden></p>
+      </section>
+
+      <section class="link-grid" aria-label="Choose privacy policy language">
+        <a class="link-card" href="./ko/" lang="ko">
+          <span class="link-card__label">한국어</span>
+          <strong>개인정보처리방침</strong>
+          <span class="link-card__meta">담아알림 - 문서 리마인더</span>
+          <span class="link-card__hint">
+            로컬 저장, 서버 전송 없음, 기기 내부 처리 안내
+          </span>
+        </a>
+
+        <a class="link-card" href="./en/" lang="en">
+          <span class="link-card__label">English</span>
+          <strong>Privacy Policy</strong>
+          <span class="link-card__meta">PaperBell - Doc Reminder</span>
+          <span class="link-card__hint">
+            Local-first storage, on-device handling, and contact details
+          </span>
+        </a>
+      </section>
+    </main>
+
+    <script>
+      (function () {
+        var note = document.getElementById("language-note");
+        if (!note) return;
+
+        var language = (navigator.language || navigator.userLanguage || "")
+          .toLowerCase();
+
+        if (language.indexOf("ko") === 0) {
+          note.textContent =
+            "브라우저 언어 기준으로는 한국어 페이지가 가장 자연스럽습니다.";
+        } else if (language) {
+          note.textContent =
+            "Based on your browser language, the English page may be the best place to start.";
+        } else {
+          return;
+        }
+
+        note.hidden = false;
+      })();
+    </script>
+  </body>
+</html>

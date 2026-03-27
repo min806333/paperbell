@@ -128,6 +128,13 @@ ul {
   margin-top: 8px;
 }
 
+.link-card__hint {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .top-nav {
   display: flex;
   flex-wrap: wrap;
@@ -142,8 +149,27 @@ ul {
   background: var(--accent-soft);
 }
 
+.nav-link--primary {
+  color: #244c48;
+  background: #dce7e4;
+  font-weight: 600;
+}
+
 .meta {
   margin: 0 0 20px;
+}
+
+.selection-note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--accent-soft);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.selection-note[hidden] {
+  display: none;
 }
 
 .section-divider {

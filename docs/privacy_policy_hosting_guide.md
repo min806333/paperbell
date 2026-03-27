@@ -8,6 +8,7 @@ the `min806333/paperbell` repository.
 Once GitHub Pages is enabled and the workflow succeeds, the privacy policy pages
 should be available at:
 
+- `https://min806333.github.io/paperbell/privacy/`
 - `https://min806333.github.io/paperbell/privacy/ko/`
 - `https://min806333.github.io/paperbell/privacy/en/`
 
@@ -21,6 +22,7 @@ site/
   index.html
   styles.css
   privacy/
+    index.html
     en/
       index.html
     ko/
@@ -58,6 +60,7 @@ After the workflow finishes:
 2. Confirm that the deploy job completed successfully.
 3. Open the GitHub Pages environment link shown in the workflow summary.
 4. Verify the final public pages:
+   - `https://min806333.github.io/paperbell/privacy/`
    - `https://min806333.github.io/paperbell/privacy/ko/`
    - `https://min806333.github.io/paperbell/privacy/en/`
 
@@ -70,6 +73,13 @@ The privacy policy URL submitted to Google Play should be:
 - non-geofenced
 - non-editable
 - not a PDF
+
+The new `/privacy/` page is a shared language selection entry.
+
+The direct policy URLs remain stable and usable:
+
+- `/privacy/ko/`
+- `/privacy/en/`
 
 Before submitting, test the final URLs in:
 
@@ -97,6 +107,10 @@ Recommended usage:
 
 - default/global listing: `https://min806333.github.io/paperbell/privacy/en/`
 - Korean localized listing: `https://min806333.github.io/paperbell/privacy/ko/`
+
+Optional reference page:
+
+- shared language entry: `https://min806333.github.io/paperbell/privacy/`
 
 ## Notes
 
